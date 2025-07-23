@@ -2,9 +2,7 @@
 
 /* Main Body */
 
-body {
-    margin: 0 auto;
-}
+
 
 
 /* Shared Styles */
@@ -174,11 +172,43 @@ main > section{
 
 
 /* Some Facts section */
+
+
+.facts-container{
+    margin-top: 130px;
+}
+
 .fact-items{
     display: grid;
     grid-template-columns: repeat(4, 1fr);
 }
 
+
+.facts-item{
+    border: 1px solid #FF900E;
+    width: 240px;
+    height: 240px;
+    border-radius: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 50px 50px;
+}
+
+.item-head{
+    font-size: 4rem;
+    font-weight: 600;
+    margin: 0;
+    color: #424242;
+}
+
+.item-para{
+    font-size: 1.25rem;
+    font-weight: 600;
+    margin: 0;
+    color: #727272;
+}
 
 
 
